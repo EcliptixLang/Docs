@@ -1,0 +1,7 @@
+lock nom: number = 69
+set thing: shell = $ls;
+
+fun reboot(){
+	console.out("Rebooting System")
+	$ reboot;
+}

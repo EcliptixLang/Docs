@@ -1,0 +1,59 @@
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #00273d;
+	--sl-color-accent: #0071a7;
+	--sl-color-accent-high: #92d1fe;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #e7eff2;
+	--sl-color-gray-2: #bac4c8;
+	--sl-color-gray-3: #7b8f96;
+	--sl-color-gray-4: #495c62;
+	--sl-color-gray-5: #2a3b41;
+	--sl-color-gray-6: #182a2f;
+	--sl-color-black: #121a1c;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #00273d;
+	--sl-color-accent: #0071a7;
+	--sl-color-accent-high: #92d1fe;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #e7eff2;
+	--sl-color-gray-2: #bac4c8;
+	--sl-color-gray-3: #7b8f96;
+	--sl-color-gray-4: #495c62;
+	--sl-color-gray-5: #2a3b41;
+	--sl-color-gray-6: #182a2f;
+	--sl-color-black: #121a1c;
+}
+:root {
+	--color-brand: rgb(17, 102, 151);
+	--sl-hue-accent: rgb(27, 107, 199);
+}
+
+code.ecl {
+	font-weight: bold;
+	color: var(--color-brand);
+}
+.hero {
+	grid-template-columns: 1fr;
+}
+  
+.hero .copy {
+	align-items: center;
+}
+  
+.hero .actions {
+	justify-content: center;
+}
+span.math {
+	font-family: serif;
+	font-style: italic;
+}
+
+pre.terminal p {
+	margin: -0.75rem -1rem;
+	padding: 0.75rem 1rem;
+  
+	overflow-x: auto;
+}

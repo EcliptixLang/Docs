@@ -1,36 +1,43 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Ecliptix
+head:
+  - tag: title
+    content: "Ecliptix: Coding, Simplified."
+description: A staticly typed interpreted programming language, meant to be easy!
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline:
+    <code class="ecl">Ecliptix</code> is a programming language meant to be simple.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Begin
+      link: /beginning/install/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Join our discord!
+      link: https://discord.gg/cWmeRzBRrR
       icon: external
 ---
 
+## Get started!
+```bash
+$ npm i ecliptix -g
+```
+
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Features
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Very customizable" icon="setting">
+		Enjoy Ecliptix the way you want!
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Static typing" icon="pencil">
+		Ecliptix supports static typing for better safety.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Moddable" icon="add-document">
+		Ecliptix is easily moddable with javascript!
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Simple to understand" icon="open-book">
+		You can start by checking [the Ecliptix docs](/docs/).
 	</Card>
 </CardGrid>

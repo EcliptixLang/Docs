@@ -5,21 +5,29 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			customCss: [
+				"./src/styles/center.css"
+			],
+			title: 'Ecliptix',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/webwisetech/ecliptix',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'The Beginning',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Installation', slug: 'beginning/install' },
+						{ label: 'Hello World', slug: 'beginning/helloworld' },
+						{ label: 'Command line', slug: 'beginning/cmdline' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'First Leap',
+					items: [
+						{ label: 'Packages', slug: 'leap/packages' },
+						{ label: 'Console tricks', slug: 'leap/tricks' },
+						{ label: 'When and While', slug: 'leap/when-while' },
+					],
 				},
 			],
 		}),
