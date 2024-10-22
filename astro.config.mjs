@@ -25,10 +25,18 @@ export default defineConfig({
 					label: 'First Leap',
 					items: [
 						{ label: 'Packages', slug: 'leap/packages' },
-						{ label: 'Console tricks', slug: 'leap/tricks' },
-						{ label: 'When and While', slug: 'leap/when-while' },
+						{ label: 'Natives', slug: 'leap/natives' },
+						{ label: 'API', slug: 'leap/api' },
 					],
 				},
+				{
+					label: 'IO',
+					items: [
+						{ label: 'Input', slug: 'io/input' },
+						{ label: 'Output', slug: 'io/output' },
+						{ label: 'Loops', slug: 'io/loops' },
+					]
+				}
 			],
 		}),
 	],

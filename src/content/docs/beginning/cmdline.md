@@ -41,11 +41,11 @@ Running that with the debug flag will do the following:
 
 ```bash
 $ ecx main.ec -d
-yo
+> "yo"
 { type: 'string', value: 'yo' }
 ```
 
-Literally too useless. Unlike the next one!
+## REPL
 
 Using the Ecliptix REPL in this stage needs you to already have knowledge in the language, so we're not doing that. but we are going to play with it a little:
 
