@@ -30,11 +30,18 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'IO',
+					label: 'Basics',
 					items: [
-						{ label: 'Input', slug: 'io/input' },
-						{ label: 'Output', slug: 'io/output' },
-						{ label: 'Loops', slug: 'io/loops' },
+						{ label: 'Input', slug: 'basics/input' },
+						{ label: 'Output', slug: 'basics/output' },
+						{ label: 'Loops', slug: 'basics/loops' },
+					]
+				},
+				{
+					label: 'Modding',
+					items: [
+						{ label: 'First look', slug: 'modding/index' },
+						{ label: 'Library API', slug: 'modding/library' }
 					]
 				}
 			],
